@@ -1,4 +1,6 @@
-
+.orange{
+    color:orangered;
+}
 .container-fluid{
     min-width: 675px;
 }
@@ -68,4 +70,25 @@
     height: 100px;
     font-size: 50px;
     padding-top: calc(25px/3);
+}
+
+#contact{
+    background: black;
+    padding: 30px 0;
+    #contact-slogan-one{
+
+    }
+    #contact-slogan-two{
+        color: white;
+        font-size: 30px;
+    }
+    #contact-slogan-three{
+        color: gray;        
+    }
+
+    .contact-option{
+        color: white;
+    }
+
+
 }
