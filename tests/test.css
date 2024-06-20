@@ -1,0 +1,93 @@
+.orange{
+    color:orangered;
+}
+.container-fluid{
+    min-width: 675px;
+}
+#navBar {
+    background-color: black;
+    border-bottom: 0.5px solid white;
+    padding: 20px 0px;
+}
+
+#navPageSections{
+    overflow-x: scroll;
+}
+
+#navPageSections span{
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+}
+
+#navPageSections span:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+#mainHomePageContent{
+    /* border: 5px solid white; */
+    height: calc(100vh - 164.5px);
+    padding-top: calc((100vh - 164.5px)/3);
+}
+
+
+#homeSection {
+	background-image: url("../static/galaxy.jpg");
+	min-height: 100vh;
+	background-size: cover;
+}
+
+#homePageInfo{
+    color: white;
+}
+
+#homePageProfileName{
+    font-size: 75px;
+    text-shadow: 4px 4px black;
+}
+#homePagePersonalTitles{
+    font-size: 25px;
+    text-shadow: 4px 4px black;
+}
+
+
+#contactIcons{
+    font-size: 30px;
+    padding-top: 30px;
+    text-shadow: 4px 4px black;
+}
+/* NOTE ADD A HOVER EFFECT */
+/* .iconSpacing:hover {
+    transform: scale(3.25);
+} */
+
+.iconSpacing {
+    padding: 20px;
+}
+
+#downArrow{
+    height: 100px;
+    font-size: 50px;
+    padding-top: calc(25px/3);
+}
+
+#contact{
+    background: black;
+    padding: 30px 0;
+    #contact-slogan-one{
+
+    }
+    #contact-slogan-two{
+        color: white;
+        font-size: 30px;
+    }
+    #contact-slogan-three{
+        color: gray;        
+    }
+
+    .contact-option{
+        color: white;
+    }
+
+}
