@@ -152,9 +152,6 @@ footer {
 .bg-dark {
 	background-color: #598392 !important;
 }
-/* #portfolio_row_two{
-    margin-top: 25px;
-} */
 
 .card{
     margin: 10px 0;
@@ -174,14 +171,6 @@ footer {
 .bold{
     font-weight: bold;
 }
-
-/* #links {
-	color: green;
-}
-
-h4 {
-	color: red;
-} */
 
 #connect{
     background: #151515;
