@@ -100,15 +100,15 @@
           <div class="col-sm-4 col-xs-6">
             <div class="card" id="project_one">
               <img
-                src="./static/ticTacTooImg.png"
+                src="./static/ticTacToeImg.png"
                 class="card-img-top"
                 alt="A screenshot of a Tic Tac Toe Game"
               />
               <div class="card-body">
-                <h5 class="card-title">Tic Tac Toe</h5>
+                <h5 class="card-title bold">Tic Tac Toe</h5>
                 <p>Tech Stack = ["JavaScript", "HTML", "CSS", "Bootstrap"];</p>
                 <p class="card-text">An interactive interface of the classic Tic-Tac-Toe game that we grew up loving.</p>
-                <a href="weather.html" class="btn btn-primary d-flex justify-content-center">Get To Playing</a>
+                <a href="https://scnkera.github.io/ticTacToe/" class="btn btn-primary d-flex justify-content-center">Get To Playing</a>
               </div>
             </div>
             <!-- end of proj #2 col -->
@@ -141,7 +141,7 @@
               alt="A screenshot of the Explore More Travel website"
             />
               <div class="card-body">
-                <h5 class="card-title">ExploreMore Travel Website</h5>
+                <h5 class="card-title bold">ExploreMore Travel Website</h5>
                 <p>Tech Stack = ["HTML", "CSS", "Bootstrap"];</p>
                 <p class="card-text">
                   A side project that allows users to search for venues and entertainment in their proximity.
@@ -159,7 +159,7 @@
                 alt="A screenshot of the christelleflex website"
               />
               <div class="card-body">
-                <h5 class="card-title">Best Buyer Website</h5>
+                <h5 class="card-title bold">Best Buyer Website</h5>
                 <p>Tech Stack = ["HTML", "CSS", "Bootstrap"];</p>
                 <p class="card-text">A recreation of Best Buy's commerce landing page but with a name twist.</p>
                 <a href="https://scnkera.github.io/bestBuyer/" class="btn btn-primary d-flex justify-content-center">Get to Shopping</a>
@@ -175,7 +175,7 @@
                 alt="A screenshot of Christelleflix website"
               />
               <div class="card-body">
-                <h5 class="card-title">Christelleflix Website</h5>
+                <h5 class="card-title bold">Christelleflix Website</h5>
                 <p>Tech Stack = ["HTML", "CSS", "Bootstrap"];</p>
                 <p class="card-text">Christelleflex recreation of the Netflix streaming website.</p>
                 <a href="#" class="btn btn-primary d-flex justify-content-center"">Get to Streaming</a>
@@ -221,11 +221,54 @@
               <!-- end of row -->
             </div>
             <div>
-              <button type="submit" class="btn btn-primary">Send 📬</button>
+              <button type="submit" class="btn btn-primary" id="message_button">Send Message</button>
             </div>
             <!-- end of right col of contact section (form) -->
           </form>
           <!-- end of row for contact section -->
+        </div>
+      </section>
+
+      <section class="row text-center" id="connect">
+        <div class="row">
+          <div class="col">
+            <p class="orange" id="contact-slogan-one">Connect</p>
+            <p id="contact-slogan-two">I'd Love To Connect With You.</p>
+            <p id="contact-slogan-three">Let me get to know you more.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col contact-option">
+            <a class="icon-link" href="https://github.com/scnkera" target="_blank">
+              <i class="bi bi-github iconSpacing"></i>
+            </a>
+             <p class="orange">Connect on GitHub</p>
+             <p>https://github.com/scnkera</p>
+          </div>
+          <div class="col contact-option">
+            <a class="icon-link" href="https://www.linkedin.com/in/christelle-nkera/" target="_blank">
+              <i class="bi bi-linkedin iconSpacing"></i>
+            </a>
+            <p class="orange">Let's Link</p>
+            <p>Linkedin Profile</p>
+          </div>
+          <div class="col contact-option">
+            <a class="icon-link" href="mailto:nkerachristelle@gmail.com.com" target="_blank">
+              <i class="bi bi-envelope-fill iconSpacing"></i>
+            </a>
+             <p class="orange">Email Me At</p>
+             <p>nkerachristelle@gmail.com</p>
+          </div>
+          <div class="col contact-option">
+            <a class="icon-link" href="https://x.com/Christellen_" target="_blank">
+              <i class="bi bi-twitter-x iconSpacing"></i>
+            </a>
+            <!-- insert icon -->
+            <p class="orange">Tweet Me</p>
+            <p>X Profile</p>
+          </div>
+          <div class="col"></div>
         </div>
       </section>
       <footer>
@@ -233,5 +276,6 @@
       </footer>
       <!-- end of main site container -->
     </div>
+    <script src="./scipt.js"></script>
   </body>
 </html>
