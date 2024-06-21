@@ -11,3 +11,8 @@ https://unsplash.com/s/photos/tech?orientation=landscape
 
 -bootstrap icons
 https://icons.getbootstrap.com
+
+
+good color scheme link
+https://visme.co/blog/website-color-schemes/
+
