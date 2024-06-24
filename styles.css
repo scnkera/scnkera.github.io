@@ -97,11 +97,33 @@ body {
 	background: #124559;
 	padding: 30px;
 
-	p {
+	#bio {
 		font-size: 20px;
 	}
-}
 
+	#quote{
+		padding-top: 12px;
+		border-radius: 20px;
+		border: 2px solid white;
+		box-shadow: -10px 0px 25px #01161e;
+		background-color: #295769;
+		font-style: italic;
+		#quote_title{
+
+		}
+		#quote_expression{
+			font-family: "Poppins", sans-serif;
+			font-weight: 500;
+
+			font-size: 20px;
+		}
+		#quote_author{
+			font-family: "Petit Formal Script", cursive;
+			font-weight: 400;
+			/* font-style: normal; */
+		}
+	}
+}
 #contact {
 	background: #d5e4f5;
 	color: black;
@@ -130,6 +152,14 @@ body {
 	padding: 30px;
     background: #598392;
     color: white;
+	#project_one, 
+	#project_two, 
+	#project_three, 
+	#project_four, 
+	#project_five, 
+	#project_six{
+		box-shadow: -5px 0px 10px #022431;
+	}
 }
 
 footer {

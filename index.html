@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- BootStrap Framework Link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -65,15 +66,20 @@
       </section>
       <section id="about">
         <h1>About</h1>
-        <p>
-          Though a scientist by trade after attaining a BS in Chemistry and mathematics, 
-          I've since made a career pivot into data and software engineering post-grad. 
-          I'm trained in Python, Javascript, HTML, CSS, and R Programing and well versed in DevOps and CD/CL processes. 
-          Current interests include ML and AI and my additional passions include travling, writing poetry, and advocacy work.
+        <p id="bio">
+          With a strong foundation in STEM, I've transitioned from scientist to data and software engineer. 
+          Leveraging my BS degree in chemistry and mathematics, I've honed my skills in Python, JavaScript, HTML, CSS, and R programming, 
+          while gaining familiary with DevOps and CI/CD processes. My current focus is on Machine Learning and Artificial Intelligence. 
+          Beyond my professional pursuits, I am passionate about traveling, writing poetry, and engaging in advocacy work.
         </p>
-
-        <p class="text-center">Favorite Quote:</p>
-        <p class="text-center"><em>"Be the change you wish to see in the world.- Ghandi"</em></p>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-md-6 col-sm-12 text-end" id="quote">
+            <p id="quote_title">A Quote I Live By:</p>
+            <p id="quote_expression">"Be the change you wish to see in the world."</p>
+            <p id="quote_author">Ghandi</p>
+          </div>
+        </div>
         <!-- end of about section -->
       </section>
       
@@ -83,9 +89,8 @@
           To further explore my projects, click on any of the cards.
         </p>
         <div class="row" id="portfolio_row_one">
-          
           <div class="col-sm-4 col-xs-6">
-            <div class="card" id="project_two">
+            <div class="card" id="project_one">
               <img
                 src="./static/soundCardImg.png"
                 class="card-img-top"
@@ -101,7 +106,7 @@
             <!-- end of proj #1 -->
           </div>
           <div class="col-sm-4 col-xs-6">
-            <div class="card" id="project_one">
+            <div class="card" id="project_two">
               <img
                 src="./static/ticTacToeImg.png"
                 class="card-img-top"
