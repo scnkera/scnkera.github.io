@@ -262,7 +262,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
 	#intro h1 {
-		font-size: 20px;
+		font-size: 50px;
 	}
 
 	#intro code {
