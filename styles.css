@@ -72,6 +72,10 @@ body {
         margin: 0 20px;
         color: #d79922;
     }
+
+	i:hover{
+		transform: scale(1.5);
+	}
 }
 
 #arrowDown {
@@ -79,6 +83,10 @@ body {
 	position: absolute;
 	bottom: 30px;
 	left: calc(50% - 37.5px);
+}
+
+#arrowDown:hover{
+	color: lightskyblue;
 }
 
 #about {
@@ -97,6 +105,7 @@ body {
 		box-shadow: -10px 0px 25px #01161e;
 		background-color: #295769;
 		font-style: italic;
+		text-shadow: 3px 3px black;
 		#quote_title{
 
 		}
@@ -142,13 +151,11 @@ body {
 	padding: 30px;
     background: #598392;
     color: white;
-	#project_one, 
-	#project_two, 
-	#project_three, 
-	#project_four, 
-	#project_five, 
-	#project_six{
+	.card {
 		box-shadow: -5px 0px 10px #022431;
+	}
+	.card:hover {
+		transform: scale(1.05);
 	}
 }
 
@@ -237,6 +244,9 @@ footer {
 				color: white;
 				font-size: 50px;
 				/* padding-bottom: 20px; */
+			}
+			i:hover{
+				transform: scale(1.5);
 			}
 		}
     }
