@@ -55,20 +55,9 @@ body {
     text-shadow: 4px 4px black;
 }
 
-@media only screen and (max-width: 600px) {
-	#intro h1 {
-		font-size: 48px;
-	}
-
-	#intro code {
-		font-size: 16px;
-	}
-}
-
 #intro h3 {
 	margin-top: 20px;
 }
-
 
 #contactIcons{
     font-size: 50px;
@@ -206,18 +195,17 @@ footer {
 
 #stats{
 	background-color: rgb(99, 195, 197);
-    padding: 30px 0;
+    padding: 50px 0;
 	margin-left: 0.5px;
 	margin-right: 0.5px;
 	.stats-icon{
-		font-size: 35px;
+		font-size: 40px;
 	}
 	.stats-num{
 		color: white;
-		font-size: 35px;
 		font-family: "Poppins", sans-serif;
 		font-weight: 500;
-		font-size: 20px;
+		font-size: 40px;
 		margin-bottom: 0;
 	}
 	.stats-category{
@@ -260,4 +248,14 @@ footer {
 
 .gray{
 	color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+	#intro h1 {
+		font-size: 20px;
+	}
+
+	#intro code {
+		font-size: 16px;
+	}
 }
