@@ -105,7 +105,7 @@ body {
 		box-shadow: -10px 0px 25px #01161e;
 		background-color: #295769;
 		font-style: italic;
-		text-shadow: 3px 3px black;
+		text-shadow: 3px 3px #01161e;
 		#quote_expression{
 			font-family: "Poppins", sans-serif;
 			font-weight: 500;
@@ -127,57 +127,76 @@ body {
     color: white;
 	.card {
 		box-shadow: -5px 0px 10px #022431;
-		.card-body {
-			.tech_stack{
-				.col {
-					padding: 2px 4px;
-					margin: 0 4px 8px 0;
-					border-radius: 4px;
-					color: white;
-					font-size: 8px;
-					letter-spacing: 1px;
-				}
-				.maroon{
-					background: maroon;
-					border: 1px solid maroon;
-					box-shadow: 1px 0px 1px #3b3b3c;
-				}
+	}
+	.tech_stack{
+		.col {
+			padding: 2px 4px;
+			margin: 0 4px 8px 0;
+			border-radius: 4px;
+			color: white;
+			font-size: 8px;
+			letter-spacing: 1px;
+		}
+		.maroon{
+			background: rgba(186, 4, 4, 0.7);
+			border: 1px solid rgba(186, 4, 4, 0.7);
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
 
-				.green{
-					background: green;
-					border: 1px solid green;
-					box-shadow: 1px 0px 1px #3b3b3c;
-				}
-				.slateblue{
-					background: slateblue;
-					border: 1px solid slateblue;
-					box-shadow: 1px 0px 1px #3b3b3c;
-				}
-				.goldenrod{
-					background: goldenrod;
-					border: 1px solid goldenrod;
-					box-shadow: 1px 0px 1px #3b3b3c;
-				}
-				.darkgray{
-					background: darkgray;
-					border: 1px solid darkgray;
-					box-shadow: 1px 0px 1px #3b3b3c;
-				}
-			}
-
-			span {
-				border: 1px solid black;
-				padding: 1px 5px;
-				margin-right: 5px;
-				border-radius: 3px;
-			}
+		.green{
+			background: green;
+			border: 1px solid green;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.slateblue{
+			background: slateblue;
+			border: 1px solid slateblue;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.goldenrod{
+			background: goldenrod;
+			border: 1px solid goldenrod;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.darkgray{
+			background: darkgray;
+			border: 1px solid darkgray;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.saddlebrown{
+			background: saddlebrown;
+			border: 1px solid saddlebrown;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.black{
+			background: black;
+			border: 1px solid black;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.mild-blue{
+			background: #366293;
+			border: 1px solid #366293;
+			box-shadow: 1px 0px 1px #3b3b3c;
 		}
 	}
+
 	.card:hover {
 		transform: scale(1.05);
 	}
-	#research_publications{
+	#research_pub{
 		margin-top: 30px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 12px;
+		padding-right: 0;
+		border-radius: 20px;
+		border: 2px solid #507583;
+		box-shadow: -5px 0px 10px #01161e;
+		background: white;
+		color: black;
+		.row{
+			margin-left: -10px;
+		}
 	}
 }
 
