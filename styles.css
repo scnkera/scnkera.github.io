@@ -103,6 +103,7 @@ body {
 	}
 
 	#bio {
+		padding-top: 10px;
 		font-size: 20px;
 	}
 
@@ -209,6 +210,9 @@ body {
 		.row{
 			margin-left: -10px;
 		}
+	}
+	#research_pub:hover {
+		transform: scale(1.015);
 	}
 }
 
