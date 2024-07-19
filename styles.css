@@ -202,7 +202,7 @@ body {
 		margin-right: 0;
 		padding-top: 12px;
 		padding-right: 0;
-		border-radius: 20px;
+		border-radius: 10px;
 		border: 2px solid #507583;
 		box-shadow: -5px 0px 10px #01161e;
 		background: white;
@@ -212,7 +212,7 @@ body {
 		}
 	}
 	#research_pub:hover {
-		transform: scale(1.015);
+		transform: scale(1.025);
 	}
 }
 
