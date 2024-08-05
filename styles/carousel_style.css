@@ -146,10 +146,10 @@
 	.home .carousel-control-prev{
 		display: none;
 	}	
-	/* .home .carousel-indicators li{
+	.home .carousel-indicators li{
 		width: 60px;
 		height: 60px;
-	} */
+	}
 	.home .carousel-item h2{
 		font-size: 45px;
 	}
@@ -158,19 +158,19 @@
 	}
 }
 
-@media(250px >= width <= 374px){
+@media(max-width: 350px){
 	.home .carousel-inner {
 		height: 150px;
 	}
 }
 
-@media(375px > width <= 768px){
+@media(max-width: 375px){
 	.home .carousel-item {
 		height: 200px;
 	}
 }
 
-@media(width > 769px){
+@media(max-width: 769px){
 	.home .carousel-item {
 		height: 275px;
 	}
