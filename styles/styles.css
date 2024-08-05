@@ -134,6 +134,12 @@ body {
 	}
 }
 
+#carousel_section{
+	color: white;
+	background: rgba(0, 0, 0, 0.604);
+	padding: 30px;
+}
+
 #portfolio {
 	padding: 30px;
     background: #598392;
@@ -226,6 +232,7 @@ footer {
 }
 
 #about,
+#carousel_section,
 #portfolio,
 #contact,
 #stats,

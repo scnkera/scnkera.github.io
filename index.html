@@ -40,8 +40,11 @@
     <!-- Favicon imagine link -->
     <link rel="icon" type="image/x-icon" href="./static/faviconLogo.ico" />
     <!-- Link to Main Page Style Sheet -->
-    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./styles/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/carousel_style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
     <!-- Hotjar Tracking Code for christellenkera.com/ -->
+
   <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -53,6 +56,7 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
   </head>
+
   <body>
     <div class="container">
       <section
@@ -118,6 +122,54 @@
             </div>
           </div>
         </div>
+        <!-- end of about section -->
+      </section>
+
+      <section id="carousel_section">
+        <h1>UX/UI Designs</h1>
+        <p>Projects for UI/UX design.</p>
+        <section class="home">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-controls">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" style="background-image: url(./static/carousel/slide_1_icon.png);"></li>
+                <li data-target="#carousel" data-slide-to="1" style="background-image: url(./static/carousel/slide_2_icon.png);"></li>
+                <li data-target="#carousel" data-slide-to="2" style="background-image: url(./static/carousel/slide_2_icon.png);"></li>
+              </ol>
+        
+              <a class="carousel-control-prev" role="button" data-slide="prev" href="#carousel">
+                <img src="./static/carousel/left-arrow.svg" alt="Previous">
+              </a>
+              <a class="carousel-control-next" role="button" data-slide="next" href="#carousel">
+                <img src="./static/carousel/right-arrow.svg" alt="Next">
+              </a>
+            </div>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image: url(./static/carousel/slide_1.png);">
+                <div class="container">
+                  <h2></h2>
+                  <p></p>
+                </div>
+              </div>
+        
+              <div class="carousel-item" style="background-image: url(./static/carousel/slide_2.png);">
+                <div class="container">
+                  <h2></h2>
+                  <p></p>
+                </div>
+              </div>
+        
+              <div class="carousel-item" style="background-image: url(./static/carousel/slide_2.png);">
+                <div class="container">
+                  <h2></h2>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </section>
         <!-- end of about section -->
       </section>
 
@@ -544,6 +596,7 @@
       </footer>
       <!-- end of main site container -->
     </div>
-    <script src="./scipt.js"></script>
+    <script src="./script/scipt.js"></script>
+    <script src="./script/bootstrap.bundle.min.js"></script>
   </body>
 </html>
