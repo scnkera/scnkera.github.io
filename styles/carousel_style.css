@@ -142,8 +142,12 @@
 
 /*Responsive*/
 @media(max-width: 767px){
-	.home .carousel-control-next,
+	/* .home .carousel-control-next,
 	.home .carousel-control-prev{
+		display: none;
+	}	 */
+
+	.home .carousel-indicators li{
 		display: none;
 	}	
 	.home .carousel-indicators li{
@@ -157,10 +161,11 @@
 		font-size: 22px;
 	}
 }
-
+/* 
 @media(max-width: 350px){
-	.home .carousel-inner {
-		height: 150px;
+	.home .carousel-indicators li{
+		width: 20px;
+		height: 20px;
 	}
 }
 
@@ -172,6 +177,6 @@
 
 @media(max-width: 769px){
 	.home .carousel-item {
-		height: 275px;
+		height: 375px;
 	}
-}
+} */
