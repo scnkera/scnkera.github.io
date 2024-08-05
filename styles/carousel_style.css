@@ -157,3 +157,15 @@
 		font-size: 22px;
 	}
 }
+
+@media(max-width: 375px){
+	.home .carousel-item {
+		height: 200px;
+	}
+}
+
+@media(max-width: 769px){
+	.home .carousel-item {
+		height: 275px;
+	}
+}
