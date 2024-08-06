@@ -136,8 +136,12 @@ body {
 
 #carousel_section{
 	color: white;
-	background: rgba(0, 0, 0, 0.365);
+	background: #0e2932;
 	padding: 30px;
+	img {
+		box-shadow: 5px 5px 15px #01161e;
+		border-radius: 5px;
+	}
 }
 
 #portfolio {
