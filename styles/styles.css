@@ -182,8 +182,8 @@ body {
 			box-shadow: 1px 0px 1px #3b3b3c;
 		}
 		.darkgray{
-			background: darkgray;
-			border: 1px solid darkgray;
+			background: rgb(95, 95, 95);
+			border: 1px solid rgb(95, 95, 95);
 			box-shadow: 1px 0px 1px #3b3b3c;
 		}
 		.saddlebrown{
