@@ -7,7 +7,8 @@
 }
 
 body {
-	background-color: #F7F6F3;
+	/* background-color: #F7F6F3; */
+    background: #E0E8EA;
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -91,8 +92,8 @@ body {
 }
 
 #about {
-	color: white;
-	background: #124559;
+	color: #1A2A40;
+	background: #A6C8C6;
 	padding: 30px 30px 50px 30px;
 
 	/* #profile_pic{
@@ -107,43 +108,46 @@ body {
 		height: 400px;
 		width: 400px;
 		border-radius: 5px;
-		box-shadow: -5px 5px 15px #01161e;
+		box-shadow: -5px 5px 15px #829298;
 	}
 
 	#bio {
 		padding-top: 10px;
 		font-size: 20px;
+        /* text-shadow: 2px 2px 2px #96a2a8; */
 	}
 
 	#quote{
 		padding-top: 12px;
 		border-radius: 20px;
 		border: 2px solid white;
-		box-shadow: -10px 0px 25px #01161e;
-		background-color: #295769;
-		font-style: italic;
+        box-shadow: -5px 5px 15px #829298;
+		background-color: #D47773;
+        color: white;
 		#quote_title{
-			text-shadow: 2px 2px #01161e;
+            font-family: "Poppins", sans-serif;
+			font-weight: 500;
+			font-size: 20px;
+			text-shadow: 2px 2px 2px #01161e;
 		}
 		#quote_expression{
 			font-family: "Poppins", sans-serif;
 			font-weight: 500;
 			font-size: 20px;
-			text-shadow: 3px 3px #01161e;
+			text-shadow: 2px 2px 2px #01161e;
 		}
 		#quote_author{
-			font-family: "Dancing Script", cursive;
-			font-optical-sizing: auto;
-			font-weight: 400;
-			font-style: normal;
-			font-size: 20px;
-			text-shadow: 2px 2px #01161e;
+            font-family: "Cormorant Garamond", serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 20px;
+			text-shadow: 2px 2px 2px #01161e;
 		}
 	}
 }
 
 #carousel_section{
-	color: white;
+	color: #1A2A40;
 	/* background: #0e2932; */
     background: #d79922;
 	padding: 30px;
@@ -156,8 +160,8 @@ body {
 #portfolio {
 	padding: 30px;
     /* background: #598392; */
-    background: #124559;
-    color: white;
+    background: #A6C8C6;
+    color: #1A2A40;
 	.card {
 		box-shadow: -5px 0px 10px #022431;
 	}
@@ -251,7 +255,7 @@ footer {
 #contact,
 #stats,
 #connect {
-	box-shadow: -5px 0px 25px #333d41;
+	box-shadow: -5px 0px 20px #8d9ea4;
 }
 
 .bg-dark {
@@ -300,21 +304,26 @@ footer {
 }
 
 #contact {
-	background: #124559;
-	color: white;
+	/* background: #124559; */
+    background: #A6C8C6;
+	color: #1A2A40;
 	padding: 30px;
 	.row {
 		margin-bottom: 15px;
 	}
 
 	a {
-		color: #0C6DFD;
+		color: #d79922;
 	}
 
 	input,
 	textarea {
 		padding: 10px;
 		width: 100%;
+        /* border-radius: 10px; */
+        background: #A6C8C6;
+        border: 5px solid  #A6C8C6;
+        border-bottom: 5px solid#1A2A40;
 	}
 
 	.btn {
