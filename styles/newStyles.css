@@ -120,7 +120,7 @@ body {
 	#quote{
 		padding-top: 12px;
 		border-radius: 20px;
-		border: 2px solid white;
+		border: 2px solid #E0E8EA;
         box-shadow: -5px 5px 15px #829298;
 		background-color: #D47773;
         color: white;
@@ -315,15 +315,20 @@ footer {
 	a {
 		color: #d79922;
 	}
+    ::placeholder {
+        color: #1A2A40;
+     }
 
 	input,
 	textarea {
 		padding: 10px;
 		width: 100%;
-        /* border-radius: 10px; */
+        border-radius: 10px;
         background: #A6C8C6;
         border: 5px solid  #A6C8C6;
         border-bottom: 5px solid#1A2A40;
+
+
 	}
 
 	.btn {
