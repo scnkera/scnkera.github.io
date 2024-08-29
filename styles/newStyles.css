@@ -30,7 +30,7 @@ body {
 	font-size: 96px;
 	animation: fadein ease-in 1s;
     font-weight: bold;
-    /* text-shadow: 4px 4px black; */
+    text-shadow: 1.5px 1.5px 3px rgba(26, 42, 64, 0.4);
 }
 
 #intro h3 {
@@ -39,7 +39,7 @@ body {
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
 	opacity: 0;
-    /* text-shadow: 4px 4px black; */
+    text-shadow: 1.5px 1.5px 3px rgba(26, 42, 64, 0.4);
 }
 
 #intro code {
@@ -51,8 +51,8 @@ body {
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 	opacity: 0;
-    /* color: white; */
-    /* text-shadow: 4px 4px black; */
+    color: #085ED6;
+    text-shadow: 1.5px 1.5px 3px rgba(26, 42, 64, 0.4);
 }
 
 #intro h3 {
@@ -62,7 +62,7 @@ body {
 #contactIcons{
     font-size: 50px;
     padding-top: 30px;
-    /* text-shadow: 8px 8px black; */
+    text-shadow: 1.5px 1.5px 3px rgba(26, 42, 64, 0.4);
     i {
         animation-name: fadein;
         animation-delay: 3s;
@@ -308,7 +308,7 @@ footer {
 	}
 
 	a {
-		color: #0437F2;
+		color: #0C6DFD;
 	}
 
 	input,
