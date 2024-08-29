@@ -1,0 +1,376 @@
+/*https://coolors.co/01161e-124559-598392-d5e4f5-dac4f7*/
+/* here */
+
+:root {
+	--darkestblue: #01161e;
+	--darkblue: #124559;
+}
+
+body {
+	background-color: #F7F6F3;
+	font-family: "Open Sans", sans-serif;
+}
+
+#intro {
+	color: #1A2A40;
+	height: 100vh;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#intro h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 96px;
+	animation: fadein ease-in 1s;
+    font-weight: bold;
+    /* text-shadow: 4px 4px black; */
+}
+
+#intro h3 {
+	animation-delay: 1s;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+    /* text-shadow: 4px 4px black; */
+}
+
+#intro code {
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+	animation-name: fadein;
+	animation-delay: 3s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+    /* color: white; */
+    /* text-shadow: 4px 4px black; */
+}
+
+#intro h3 {
+	margin-top: 20px;
+}
+
+#contactIcons{
+    font-size: 50px;
+    padding-top: 30px;
+    /* text-shadow: 8px 8px black; */
+    i {
+        animation-name: fadein;
+        animation-delay: 3s;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        margin: 0 20px;
+        color: #d79922;
+    }
+
+	i:hover{
+		transform: scale(1.5);
+	}
+}
+
+#arrowDown {
+	font-size: 75px;
+	position: absolute;
+	bottom: 30px;
+	left: calc(50% - 37.5px);
+    color: #1A2A40;
+}
+
+#arrowDown:hover{
+	color: #d79922;
+}
+
+#about {
+	color: white;
+	background: #124559;
+	padding: 30px 30px 50px 30px;
+
+	/* #profile_pic{
+		height: 400px;
+		width: 400px;
+		border-radius: 50%;
+		border: 2px solid white;
+		box-shadow: -10px 0px 25px #01161e;
+	} */
+
+	#profile_pic{
+		height: 400px;
+		width: 400px;
+		border-radius: 5px;
+		box-shadow: -5px 5px 15px #01161e;
+	}
+
+	#bio {
+		padding-top: 10px;
+		font-size: 20px;
+	}
+
+	#quote{
+		padding-top: 12px;
+		border-radius: 20px;
+		border: 2px solid white;
+		box-shadow: -10px 0px 25px #01161e;
+		background-color: #295769;
+		font-style: italic;
+		#quote_title{
+			text-shadow: 2px 2px #01161e;
+		}
+		#quote_expression{
+			font-family: "Poppins", sans-serif;
+			font-weight: 500;
+			font-size: 20px;
+			text-shadow: 3px 3px #01161e;
+		}
+		#quote_author{
+			font-family: "Dancing Script", cursive;
+			font-optical-sizing: auto;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 20px;
+			text-shadow: 2px 2px #01161e;
+		}
+	}
+}
+
+#carousel_section{
+	color: white;
+	/* background: #0e2932; */
+    background: #d79922;
+	padding: 30px;
+	img {
+		box-shadow: 5px 5px 5px rgba(183, 129, 29, 0.71);
+		border-radius: 5px;
+	}
+}
+
+#portfolio {
+	padding: 30px;
+    /* background: #598392; */
+    background: #124559;
+    color: white;
+	.card {
+		box-shadow: -5px 0px 10px #022431;
+	}
+	.tech_stack{
+		.col {
+			padding: 2px 4px;
+			margin: 0 4px 8px 0;
+			border-radius: 4px;
+			color: white;
+			font-size: 8px;
+			letter-spacing: 1px;
+		}
+		.maroon{
+			background: rgba(186, 4, 4, 0.7);
+			border: 1px solid rgba(186, 4, 4, 0.7);
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+
+		.green{
+			background: green;
+			border: 1px solid green;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.slateblue{
+			background: slateblue;
+			border: 1px solid slateblue;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.goldenrod{
+			background: goldenrod;
+			border: 1px solid goldenrod;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.darkgray{
+			background: rgb(95, 95, 95);
+			border: 1px solid rgb(95, 95, 95);
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.saddlebrown{
+			background: saddlebrown;
+			border: 1px solid saddlebrown;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.black{
+			background: black;
+			border: 1px solid black;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+		.mild-blue{
+			background: #366293;
+			border: 1px solid #366293;
+			box-shadow: 1px 0px 1px #3b3b3c;
+		}
+	}
+
+	.card:hover {
+		transform: scale(1.05);
+	}
+	#research_pub{
+		margin-top: 30px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 12px;
+		padding-right: 0;
+		border-radius: 10px;
+		border: 2px solid #507583;
+		box-shadow: -5px 0px 10px #01161e;
+		background: white;
+		color: black;
+		.row{
+			margin-left: -10px;
+		}
+	}
+	#research_pub:hover {
+		transform: scale(1.025);
+	}
+}
+
+footer {
+	padding: 30px;
+	background: black;
+	color: white;
+    p{
+        color: #414040;
+    }
+}
+
+#about,
+#carousel_section,
+#portfolio,
+#contact,
+#stats,
+#connect {
+	box-shadow: -5px 0px 25px #333d41;
+}
+
+.bg-dark {
+	background-color: #598392 !important;
+}
+
+.card{
+    margin: 10px 0;
+}
+
+#project {
+	background: var(--darkblue);
+	color: white;
+	padding: 30px;
+}
+
+.badge {
+	background-color: black;
+	margin-right: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#stats{
+	background: rgb(99, 195, 197);
+    background: #d79922;
+    padding: 50px 0;
+	margin-left: 0.5px;
+	margin-right: 0.5px;
+	.stats-icon{
+		font-size: 40px;
+	}
+	.stats-num{
+		color: white;
+		font-family: "Poppins", sans-serif;
+		font-weight: 500;
+		font-size: 40px;
+		margin-bottom: 0;
+	}
+	.stats-category{
+		color: #1A2A40;
+		font-weight: bold;
+	}
+}
+
+#contact {
+	background: #124559;
+	color: white;
+	padding: 30px;
+	.row {
+		margin-bottom: 15px;
+	}
+
+	a {
+		color: #0437F2;
+	}
+
+	input,
+	textarea {
+		padding: 10px;
+		width: 100%;
+	}
+
+	.btn {
+		width: 100%;
+	}
+}
+
+#connect{
+    background: #151515;
+    padding: 30px 0;
+	margin-left: 1px;
+	margin-right: 1px;
+    #connect-slogan-two{
+        color: white;
+        font-size: 30px;
+    }
+    #connect-slogan-three{
+        color: gray;
+		padding-bottom: 40px;        
+    }
+
+    .connect-option{
+        color: white;
+
+		a {
+			padding-bottom: 50px;
+			i {
+				color: white;
+				font-size: 50px;
+				/* padding-bottom: 20px; */
+			}
+			i:hover{
+				transform: scale(1.5);
+			}
+		}
+    }
+}
+
+.orange{
+    color: #d79922;
+}
+
+.gray{
+	color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+	#intro h1 {
+		font-size: 50px;
+	}
+
+	#intro code {
+		font-size: 16px;
+	}
+
+	.stats-num{
+		font-size: 20px;
+	}
+}
