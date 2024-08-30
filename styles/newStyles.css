@@ -27,7 +27,7 @@ body {
 
 #intro {
 	color: #1A2A40;
-	height: 100vh;
+	height: calc(100vh - 50px);
 }
 
 @keyframes fadein {
