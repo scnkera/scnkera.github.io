@@ -12,6 +12,19 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
+#nav_bar{
+    padding-top: 20px;
+    a {
+        font-weight: bold;
+        /* color: rgb(118, 116, 116); */
+        /* text-shadow: 1px 1px 2px rgba(26, 42, 64, 0.4); */
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+}
+
 #intro {
 	color: #1A2A40;
 	height: 100vh;
@@ -163,7 +176,7 @@ body {
     background: #A6C8C6;
     color: #1A2A40;
 	.card {
-		box-shadow: -5px 0px 10px #022431;
+        box-shadow: -5px 5px 15px #829298;
 	}
 	.tech_stack{
 		.col {
@@ -227,10 +240,9 @@ body {
 		padding-top: 12px;
 		padding-right: 0;
 		border-radius: 10px;
-		border: 2px solid #507583;
-		box-shadow: -5px 0px 10px #01161e;
+        box-shadow: -5px 5px 15px #829298;
 		background: white;
-		color: black;
+		color: #1A2A40;
 		.row{
 			margin-left: -10px;
 		}
@@ -313,7 +325,7 @@ footer {
 	}
 
 	a {
-		color: #d79922;
+		color: white;
 	}
     ::placeholder {
         color: #1A2A40;
