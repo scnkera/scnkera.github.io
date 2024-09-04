@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let activeLink = links[0]; // Set the Home button as the initially active link
 
     // Set default colors: Home -> Blue, Others -> Gray
-    activeLink.style.color = "blue"; // Home button
+    activeLink.style.color = "#085ED6"; // Home button
     for (let i = 1; i < links.length; i++) {
         links[i].style.color = "gray"; // Other buttons
     }
