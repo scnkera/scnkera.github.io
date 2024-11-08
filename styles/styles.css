@@ -166,47 +166,48 @@ body {
 			color: white;
 			font-size: 8px;
 			letter-spacing: 1px;
+			box-shadow: 1px 0px 1px #3b3b3c;
 		}
 		.maroon{
 			background: rgba(186, 4, 4, 0.7);
 			border: 1px solid rgba(186, 4, 4, 0.7);
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 
 		.green{
 			background: green;
 			border: 1px solid green;
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 		.slateblue{
 			background: slateblue;
 			border: 1px solid slateblue;
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 		.goldenrod{
 			background: goldenrod;
 			border: 1px solid goldenrod;
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 		.darkgray{
 			background: rgb(95, 95, 95);
 			border: 1px solid rgb(95, 95, 95);
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 		.saddlebrown{
 			background: saddlebrown;
 			border: 1px solid saddlebrown;
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 		.black{
 			background: black;
 			border: 1px solid black;
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 		.mild-blue{
 			background: #366293;
 			border: 1px solid #366293;
-			box-shadow: 1px 0px 1px #3b3b3c;
+			/* box-shadow: 1px 0px 1px #3b3b3c; */
 		}
 	}
 
