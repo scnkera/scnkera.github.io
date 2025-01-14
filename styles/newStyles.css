@@ -136,7 +136,8 @@ body {
 		border-radius: 20px;
 		border: 2px solid #E0E8EA;
         box-shadow: -5px 5px 15px #829298;
-		background-color: #D47773;
+		/* background-color: #D47773; */
+		background-color: #9C2C2F;
         color: white;
 		#quote_title{
             font-family: "Poppins", sans-serif;
