@@ -122,9 +122,8 @@ body {
 	}
 
 	#bio {
-		padding-top: 10px;
+		/* padding-top: 10px; */
 		font-size: 20px;
-        /* text-shadow: 2px 2px 2px #96a2a8; */
 		span {
 			font-style: italic;
 			font-weight: bold;
@@ -132,30 +131,18 @@ body {
 	}
 
 	#quote{
-		padding-top: 12px;
 		border-radius: 20px;
-		border: 1px solid #E1DFD6;
+		/* border: 1px solid #E1DFD6; */
         box-shadow: -2.5px 2.5px 5px #829298;
 		background-color: #D2B589;
-        color: white;
-		#quote_title{
-            font-family: "Poppins", sans-serif;
-			font-weight: 500;
-			font-size: 20px;
-			text-shadow: 2px 2px 2px #01161e;
-		}
+		color:  #01161e;
+		text-align: center;
+		margin: 24px 12px;
 		#quote_expression{
+			margin: 20px;
 			font-family: "Poppins", sans-serif;
 			font-weight: 500;
 			font-size: 20px;
-			text-shadow: 2px 2px 2px #01161e;
-		}
-		#quote_author{
-            font-family: "Cormorant Garamond", serif;
-            font-weight: 700;
-            font-style: italic;
-            font-size: 20px;
-			text-shadow: 2px 2px 2px #01161e;
 		}
 	}
 }
@@ -203,7 +190,7 @@ body {
 			/* text-shadow: 1px 0px 1px #1e1e1f; */
 		}
 		.block_black {
-			border: 1px solid black !important;
+			border: 1px solid #1A2A40 !important;
 			box-shadow: .5px .5px .5px #77777a;
 		}
 	}
@@ -384,4 +371,9 @@ footer {
 			font-size: 16px;
 		}
 	}
+}
+
+button, .btn-primary {
+	background-color: #1A2A40 !important;
+	border-color: #1A2A40 !important;
 }
