@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* height: 100%;
+    width: 100%; */
+}
+
+
+#page_header {
+    background-color: #0F0F0F;
+    color: white;
+    height: 10vh;
+    
+    #name_banner {
+        #header_name {
+            border: 3px solid white;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 30px;
+            padding: 0px 5px;
+        }
+    }
+    #tabs {
+        #about_btn, #product_btn, #coding_btn, #contact_btn {
+            a {
+                text-decoration: none;
+                color: white;
+                letter-spacing: 0.25rem;
+            }
+        }
+    }
+
+    #tabs div:hover {
+        color: #0D6EFD;
+        cursor: pointer;
+        transform: scale(1.15)
+    }
+}
+
+#connect{
+    color: white;
+    background: #151515;
+    padding: 25px 0;
+    #connect-slogan-two{
+        letter-spacing: 0.25rem
+    }
+    #connect-slogan-three{
+        color: rgb(42, 40, 40);
+		padding-bottom: 30px;        
+    }
+
+    .connect-option{
+		a {
+			padding-bottom: 40px;
+			i {
+				color: white;
+				font-size: 40px;
+			}
+			i:hover{
+				transform: scale(1.1);
+                color: #0D6EFD;
+			}
+		}
+        p {
+            letter-spacing: 0.25rem
+        }
+    }
+}
+
+footer {
+	padding: 30px;
+	background: #0F0F0F;
+	color: #E1DFD6;
+    letter-spacing: 0.25rem
+}
+
+#page_header, #connect, footer {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}

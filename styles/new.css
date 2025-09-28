@@ -1,73 +1,73 @@
-
+#about_btn a {
+        color: #0D6EFD !important;
+    }
 
 #title_section {
     background-image: url("../static/o_d.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    height: 80vh;
-    align-items: center; 
-    font-weight: bold;
+    background-attachment: fixed;
     color: white;
+    font-weight: bold;
+    height: 90vh;
+
+    #title_name {
+        font-size: 125px;
+        letter-spacing: 0.4rem;
+    }
+        
+    #title_position {
+        font-size: 20px;
+        letter-spacing: 0.4rem;
+    }
 
 }
-
-#title_name {
-    font-size: 100px;
-}
-    
-#title_position {
-    font-size: 25px;
-}
-
 
 #bio_section {
+    height: 80vh;
+    /* border: 5px solid red; */
+
+    #bio_title {
+        font-size: 50px;
+        /* border: 5px solid purple; */
+        font-weight: bold;
+        /* height: 20vh; */
+    }
     #bio_para {
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        /* border: 5px solid purple; */
         p {
             font-size: 30px;
+            font-weight: lighter;
+            color: rgb(72, 71, 71);
         }
     }
+    #bio_btn {
+        letter-spacing: 0.2rem;
+        /* border: 5px solid purple; */
 
+        #portfolio_btn {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0D6EFD;
+            border: 5px solid #0D6EFD;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        #portfolio_btn:hover {
+            background: #0D6EFD;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
 }
 
-#page_header, #title_section, #bio_section, #connect, footer {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-}
-
-#connect{
-    background: #151515;
-    padding: 30px 0;
-    #connect-slogan-two{
-        color: white;
-    }
-    #connect-slogan-three{
-        color: rgb(42, 40, 40);
-		padding-bottom: 40px;        
-    }
-
-    .connect-option{
-        color: white;
-
-		a {
-			padding-bottom: 50px;
-			i {
-				color: white;
-				font-size: 50px;
-			}
-			i:hover{
-				transform: scale(1.2);
-                /* opacity: 0.5; */
-                color: #0D6EFD;
-			}
-
-            /* #linkedin_btn {
-                color: #0D6EFD;
-            } */
-		}
-    }
+#title_section, #bio_section {
+    /* font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto; */
 }
 
 
