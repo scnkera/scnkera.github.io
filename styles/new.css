@@ -1,0 +1,73 @@
+
+
+#title_section {
+    background-image: url("../static/o_d.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 80vh;
+    align-items: center; 
+    font-weight: bold;
+    color: white;
+
+}
+
+#title_name {
+    font-size: 100px;
+}
+    
+#title_position {
+    font-size: 25px;
+}
+
+
+#bio_section {
+    #bio_para {
+        border: 1px solid red;
+        p {
+            font-size: 30px;
+        }
+    }
+
+}
+
+#page_header, #title_section, #bio_section, #connect, footer {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#connect{
+    background: #151515;
+    padding: 30px 0;
+    #connect-slogan-two{
+        color: white;
+    }
+    #connect-slogan-three{
+        color: rgb(42, 40, 40);
+		padding-bottom: 40px;        
+    }
+
+    .connect-option{
+        color: white;
+
+		a {
+			padding-bottom: 50px;
+			i {
+				color: white;
+				font-size: 50px;
+			}
+			i:hover{
+				transform: scale(1.2);
+                /* opacity: 0.5; */
+                color: #0D6EFD;
+			}
+
+            /* #linkedin_btn {
+                color: #0D6EFD;
+            } */
+		}
+    }
+}
+
+
