@@ -16,7 +16,7 @@ html, body {
             border: 3px solid white;
             border-radius: 5px;
             font-weight: bold;
-            font-size: 30px;
+            font-size: 20px;
             padding: 0px 5px;
         }
     }
@@ -54,7 +54,7 @@ html, body {
 			padding-bottom: 40px;
 			i {
 				color: white;
-				font-size: 40px;
+				font-size: 30px;
 			}
 			i:hover{
 				transform: scale(1.1);

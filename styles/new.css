@@ -13,12 +13,12 @@
     min-height: 90vh;
 
     #title_name {
-        font-size: 125px;
+        font-size: 100px;
         letter-spacing: 0.4rem;
     }
         
     #title_position {
-        font-size: 20px;
+        font-size: 15px;
         letter-spacing: 0.4rem;
     }
 
@@ -26,34 +26,28 @@
 
 #bio_section {
     min-height: 80vh;
-    /* border: 5px solid red; */
 
     #bio_title {
-        font-size: 50px;
-        /* border: 5px solid purple; */
+        font-size: 40px;
         font-weight: bold;
-        /* height: 20vh; */
     }
     #bio_para {
-        /* border: 1px solid red; */
-        /* border: 5px solid purple; */
         p {
-            font-size: 30px;
+            font-size: 25px;
             font-weight: lighter;
             color: rgb(72, 71, 71);
         }
     }
     #bio_btn {
         letter-spacing: 0.2rem;
-        /* border: 5px solid purple; */
-
+        
         #portfolio_btn {
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
             color: #0D6EFD;
             border: 5px solid #0D6EFD;
             border-radius: 5px;
-            padding: 15px;
+            padding: 10px;
         }
         #portfolio_btn:hover {
             background: #0D6EFD;
@@ -64,10 +58,10 @@
         }
     }
 }
-
+/* 
 #title_section, #bio_section {
-    /* font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto; */
-}
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+} */
 
 
