@@ -9,7 +9,7 @@ html, body {
 #page_header {
     background-color: #0F0F0F;
     color: white;
-    min-height: 10vh;
+    min-height: 12.5vh;
     
     #name_banner {
         #header_name {
@@ -23,9 +23,10 @@ html, body {
     #tabs {
         #about_btn, #product_btn, #coding_btn, #contact_btn {
             a {
+                font-size: 15px;
                 text-decoration: none;
                 color: white;
-                letter-spacing: 0.25rem;
+                letter-spacing: 0.2rem;
             }
         }
     }

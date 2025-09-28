@@ -10,16 +10,15 @@
     background-attachment: fixed;
     color: white;
     font-weight: bold;
-    min-height: 90vh;
+    min-height: 87.5vh;
+    letter-spacing: 0.25rem;
 
     #title_name {
         font-size: 100px;
-        letter-spacing: 0.4rem;
     }
         
     #title_position {
         font-size: 15px;
-        letter-spacing: 0.4rem;
     }
 
 }
