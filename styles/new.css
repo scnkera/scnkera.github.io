@@ -24,7 +24,7 @@
 }
 
 #bio_section {
-    padding: 150px 0;
+    padding: 80px 0px 50px 0px;
 
     #bio_title {
         font-size: 40px;
@@ -39,8 +39,8 @@
     }
 }
 #bio_btn {
-    letter-spacing: 0.1rem;
-    padding-top: 25px;
+    letter-spacing: 0.2rem;
+    padding-top: 50px;
         
     #portfolio_btn {
         font-size: 15px;
