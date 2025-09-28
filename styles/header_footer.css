@@ -9,7 +9,7 @@ html, body {
 #page_header {
     background-color: #0F0F0F;
     color: white;
-    min-height: 12.5vh;
+    min-height: 10vh;
     
     #name_banner {
         #header_name {
