@@ -24,7 +24,7 @@
 }
 
 #bio_section {
-    padding: 80px 0px 50px 0px;
+    padding: 100px 0px 125px 0px;
 
     #bio_title {
         font-size: 40px;
@@ -51,7 +51,7 @@
         padding: 10px;
     }
     #portfolio_btn:hover {
-        background: #FFFFFF;
+        background: #2424FF;
         color: white;
     }
     a {
