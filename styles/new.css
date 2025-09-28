@@ -1,5 +1,5 @@
 #about_btn a {
-        color: #0D6EFD !important;
+        color: #2424FF !important;
     }
 
 #title_section {
@@ -38,18 +38,18 @@
         }
     }
     #bio_btn {
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
         
         #portfolio_btn {
             font-size: 15px;
             font-weight: bold;
-            color: #0D6EFD;
-            border: 5px solid #0D6EFD;
+            color: #2424FF;
+            border: 5px solid #2424FF;
             border-radius: 5px;
             padding: 10px;
         }
         #portfolio_btn:hover {
-            background: #0D6EFD;
+            background: #FFFFFF;
             color: white;
         }
         a {
