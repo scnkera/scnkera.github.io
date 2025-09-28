@@ -24,8 +24,6 @@
 }
 
 #bio_section {
-    min-height: 80vh;
-
     #bio_title {
         font-size: 40px;
         font-weight: bold;
