@@ -1,3 +1,116 @@
+.green {
+    color:#81DAB3;
+}
+
+.pearl {
+    color: #FFD6B6;;
+}
+
+.gold {
+    color: #FFE950;
+}
+
+
 #product_btn a {
         color: #2424FF !important;
     }
+
+#product-portfolio {
+    padding: 100px 0 150px 0;
+
+    #prod-port-title {
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        padding-bottom: 30px;
+    }
+
+    #prod-port-cards {
+        .prod-card {
+            background: #151515;
+            border-radius: 20px;
+            margin: 0 20px;
+            padding: 20px 35px;
+
+            #prod-one-img {
+                height: 500px;
+                border-radius: 20px;
+                background: #81DAB3;
+                background-image: url("../static/lux_ai.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            #prod-two-img {
+                height: 500px;
+                border-radius: 20px;
+                background: #FFD6B6;
+                background-image: url("../static/clarity_hub.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            #prod-three-img {
+                height: 500px;
+                border-radius: 20px;
+                background: #8DA2FF;
+                background-image: url("../static/fin_path.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            #prod-two {
+                
+            }
+
+            #prod-two {
+                
+            }
+
+            .prod-desc {
+                font-weight: bold;
+                letter-spacing: 0.2rem;
+                margin-top: 15px;
+            }
+
+            .prod-brand-name {
+                font-size: 50px;
+                letter-spacing: 0.2rem;
+                color: white;
+                font-weight: bold;
+            }
+
+            .prod-sum {
+                font-weight: bold;
+                font-size: 20px;
+                letter-spacing: 0.2rem;
+                color: white;
+                margin-top: 10px;
+            }
+
+            .prod_btn {
+                letter-spacing: 0.2rem;
+                    
+                #prod_click_btn {
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: white;
+                    border: 2.5px solid white;
+                    border-radius: 5px;
+                    padding: 10px;
+                }
+                #prod_click_btn:hover {
+                    background: white;
+                    color: black;
+                    cursor: pointer;
+                }
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
