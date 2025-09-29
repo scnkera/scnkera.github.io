@@ -9,7 +9,10 @@
 .gold {
     color: #FFE950;
 }
-
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 #product_btn a {
         opacity: 60%;
@@ -29,7 +32,7 @@
         .prod-card {
             background: #151515;
             border-radius: 20px;
-            margin: 0 20px;
+            margin: 20px;
             padding: 20px 35px;
 
             #prod-one-img {
@@ -40,6 +43,8 @@
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
+                /* aspect-ratio: 1 / 1;   keeps it a square */
+                /* overflow: hidden; */
             }
 
             #prod-two-img {
