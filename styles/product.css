@@ -33,7 +33,7 @@
             padding: 20px 35px;
 
             #prod-one-img {
-                height: 400px;
+                height: 375px;
                 border-radius: 20px;
                 background: #81DAB3;
                 background-image: url("../static/lux_ai.png");
@@ -43,7 +43,7 @@
             }
 
             #prod-two-img {
-                height: 400px;
+                height: 375px;
                 border-radius: 20px;
                 background: #FFD6B6;
                 background-image: url("../static/clarity_hub.png");
@@ -53,7 +53,7 @@
             }
 
             #prod-three-img {
-                height: 400px;
+                height: 375px;
                 border-radius: 20px;
                 background: #8DA2FF;
                 background-image: url("../static/fin_path.png");
@@ -72,7 +72,7 @@
 
             .prod-desc {
                 font-weight: bold;
-                font-size: 10px;
+                /* font-size: 10px; */
                 letter-spacing: 0.2rem;
                 margin-top: 15px;
             }
@@ -86,7 +86,7 @@
 
             .prod-sum {
                 font-weight: bold;
-                font-size: 15px;
+                /* font-size: 15px; */
                 letter-spacing: 0.2rem;
                 color: white;
                 margin-top: 10px;
