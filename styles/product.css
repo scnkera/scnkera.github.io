@@ -16,10 +16,10 @@
     }
 
 #product-portfolio {
-    padding: 100px 0 150px 0;
+    padding: 75px 0 100px 0;
 
     #prod-port-title {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
         letter-spacing: 0.1rem;
         padding-bottom: 30px;
@@ -33,7 +33,7 @@
             padding: 20px 35px;
 
             #prod-one-img {
-                height: 500px;
+                height: 400px;
                 border-radius: 20px;
                 background: #81DAB3;
                 background-image: url("../static/lux_ai.png");
@@ -43,7 +43,7 @@
             }
 
             #prod-two-img {
-                height: 500px;
+                height: 400px;
                 border-radius: 20px;
                 background: #FFD6B6;
                 background-image: url("../static/clarity_hub.png");
@@ -53,7 +53,7 @@
             }
 
             #prod-three-img {
-                height: 500px;
+                height: 400px;
                 border-radius: 20px;
                 background: #8DA2FF;
                 background-image: url("../static/fin_path.png");
@@ -72,12 +72,13 @@
 
             .prod-desc {
                 font-weight: bold;
+                font-size: 10px;
                 letter-spacing: 0.2rem;
                 margin-top: 15px;
             }
 
             .prod-brand-name {
-                font-size: 50px;
+                font-size: 35px;
                 letter-spacing: 0.2rem;
                 color: white;
                 font-weight: bold;
@@ -85,7 +86,7 @@
 
             .prod-sum {
                 font-weight: bold;
-                font-size: 20px;
+                font-size: 15px;
                 letter-spacing: 0.2rem;
                 color: white;
                 margin-top: 10px;
