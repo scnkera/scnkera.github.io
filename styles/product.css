@@ -31,12 +31,12 @@
     #prod-port-cards {
         .prod-card {
             background: #151515;
-            border-radius: 20px;
-            margin: 20px;
-            padding: 20px 35px;
+            border-radius: 15px;
+            margin: 155px;
+            padding: 15px 25px;
 
             #prod-one-img {
-                height: 400px;
+                height: 300px;
                 border-radius: 20px;
                 background: #81DAB3;
                 background-image: url("../static/lux_ai.png");
@@ -48,7 +48,7 @@
             }
 
             #prod-two-img {
-                height: 400px;
+                height: 300px;
                 border-radius: 20px;
                 background: #FFD6B6;
                 background-image: url("../static/clarity_hub.png");
@@ -58,7 +58,7 @@
             }
 
             #prod-three-img {
-                height: 400px;
+                height: 300px;
                 border-radius: 20px;
                 background: #8DA2FF;
                 background-image: url("../static/fin_path.png");
@@ -83,7 +83,7 @@
             }
 
             .prod-brand-name {
-                font-size: 35px;
+                font-size: 25px;
                 letter-spacing: 0.2rem;
                 color: white;
                 font-weight: bold;
@@ -101,12 +101,12 @@
                 letter-spacing: 0.2rem;
                     
                 #prod_click_btn {
-                    font-size: 15px;
+                    font-size: 10px;
                     font-weight: bold;
                     color: white;
                     border: 2.5px solid white;
                     border-radius: 5px;
-                    padding: 10px;
+                    padding: 5px;
                 }
                 #prod_click_btn:hover {
                     background: white;
