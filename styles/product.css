@@ -3,20 +3,21 @@
 }
 
 .pearl {
-    color: #FFD6B6;;
+    color: #FFD6B6;
 }
 
 .gold {
     color: #FFE950;
 }
+
 .row {
     margin-right: 0px;
     margin-left: 0px;
 }
 
 #product_btn a {
-        opacity: 60%;
-    }
+    opacity: 60%;
+}
 
 #product-portfolio {
     padding: 75px 0 100px 0;
@@ -33,30 +34,34 @@
             background: #151515;
             border-radius: 15px;
             margin: 15px;
-            padding: 15px 25px;
+            padding: 10px;
+            text-align: center;
 
-            #prod-one-img, #prod-two-img, #prod-three-img {
-                height: 200px;
+            #prod-one-img, 
+            #prod-two-img, 
+            #prod-three-img {
+                height: 250px;
+                width: 100%;
+                max-width: 250px;
+                margin: 0 auto;
                 border-radius: 20px;
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size: cover;  
+                background-size: cover;
             }
 
             #prod-one-img {
-                background: #81DAB3;
+                background-color: #81DAB3;
                 background-image: url("../static/lux_ai.png");
-                /* aspect-ratio: 1 / 1;   keeps it a square */
-                /* overflow: hidden; */
             }
 
             #prod-two-img {
-                background: #FFD6B6;
+                background-color: #FFD6B6;
                 background-image: url("../static/clarity_hub.png");
             }
 
             #prod-three-img {
-                background: #8DA2FF;
+                background-color: #8DA2FF;
                 background-image: url("../static/fin_path.png");
             }
 
@@ -84,7 +89,7 @@
 
             .prod_btn {
                 letter-spacing: 0.2rem;
-                    
+
                 #prod_click_btn {
                     font-size: 10px;
                     font-weight: bold;
@@ -92,14 +97,13 @@
                     border: 2.5px solid white;
                     border-radius: 5px;
                     padding: 5px;
-                }
-                #prod_click_btn:hover {
-                    background: white;
-                    color: black;
-                    cursor: pointer;
-                }
-                a {
                     text-decoration: none;
+
+                    &:hover {
+                        background: white;
+                        color: black;
+                        cursor: pointer;
+                    }
                 }
             }
         }
