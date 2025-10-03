@@ -64,8 +64,10 @@
     }
 
     #message_button {
-        background-color: #9F9F9F;
+        /* background-color: #9F9F9F; */
         font-weight: bold;
+        border: 2px solid white;
+        color: white;
 
         &:hover {
             background: #e7e7e7;
