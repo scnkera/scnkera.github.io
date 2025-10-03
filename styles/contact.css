@@ -29,7 +29,7 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            background-color: white;
+            background-color: #e7e7e7;
             background-image: url("../static/contact-img.jpeg");
         }
     }
@@ -44,7 +44,7 @@
 	}
 
     h3 {
-        color: white;
+        color: #e7e7e7;
         font-weight: normal;
     }
 
@@ -56,7 +56,7 @@
 	textarea {
 		padding: 10px;
 		width: 100%;
-        border-radius: 5px;
+        border-radius: 10px;
         border-bottom: 5px solid#1A2A40;
 	}
     textarea {
@@ -64,28 +64,15 @@
     }
 
     #message_button {
-        /* background-color: #9F9F9F; */
         font-weight: bold;
-        border: 2px solid white;
+        border: 2.5px solid #e7e7e7;
         padding: 10px;
-        color: white;
+        color: #e7e7e7;
 
         &:hover {
             background: #e7e7e7;
             cursor: pointer;
         }
-
-                            /* font-size: 15px; */
-        font-weight: bold;
-        color: white;
-        border: 2.5px solid white;
-        /* border-radius: 5px; */
-
-
-        &:hover {
-            background: white;
-            color: black;
-            cursor: pointer;
     }
     
 }
